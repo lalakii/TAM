@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    defaultConfig {
+        applicationId "com.iamverycute.air"
+        versionCode 2
+        versionName "2.0"
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 27
+        minSdkVersion 27
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    //noinspection GradleCompatible
+    compileSdkVersion 27
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation 'dev.rikka.shizuku:api:12.1.0'
+    implementation 'dev.rikka.shizuku:provider:12.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+}
