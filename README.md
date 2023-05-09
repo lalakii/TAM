@@ -5,4 +5,6 @@
 ## Dependency
 Installation required: [Shizuku App](https://github.com/RikkaApps/Shizuku/releases)
 
+**如果拥有系统签名，可忽略Shizuku，构建成系统app即可**
+
 ![img0](https://cdn.jsdelivr.net/gh/iamverycute/TAM/pic.jpg)
