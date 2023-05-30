@@ -1,4 +1,4 @@
-# Toggle Airplane Mode
+# Toggle Airplane Mode, new version: https://github.com/iamverycute/android_airplane_mode
 
 **基于sdk27 android hidden api构建的飞行模式开关DEMO**
 
